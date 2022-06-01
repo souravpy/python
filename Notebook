@@ -1,0 +1,58 @@
+from attr import attributes
+from pygame import init
+
+
+notebook at 30 May Summer night:
+
+
+
+object oriented programming
+
+methods(functions of the class) and attrbutes(variables in init of class)
+__init__ contains all the variables required for the class
+
+------------------------------------------------------------------------------------
+
+class stream:
+        def __init__(self, "name", number)
+        #__init__(arguments) contains the attrbutes that the main class contains
+
+
+        def subjects(self)
+
+
+#class "stream" contains name, numeber attrbute
+Science = stream("Science", 69)
+#Science object belongs to stream
+
+-----------------------------------------------------------------------------------------
+
+#another good example
+class Pet:
+        def __init__(self, name, age ):
+                self.name = name
+                self.age = age
+        
+
+class Dog(Pet):
+        #def __init__(self, name, age):
+        #        self.name = name
+        #        self.age = age
+        def bark(self):
+                return("wooff")
+class Cat(Pet):        
+        #def __init__(self, name, age):
+        #        self.name = name
+        def mew(self):
+                return("meww")
+
+#init contians the attributes which are passed along with the object
+#i.e all the attributes to be used in the code
+
+
+#ewe
+
+rg
+erg
+e
+gradie
