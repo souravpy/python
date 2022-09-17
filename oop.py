@@ -48,3 +48,17 @@ print(txt3)
 #---------------------------------------------------------------------------------
 
 
+
+
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc(abc):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36) #here were defining an object p1 beleonging to class Person
+                        #holding values jhn,38 being passed to __init__ to initialize 
+
+p1.myfunc()             #p1 object (belonging to person class) accesing myfunc attribute in class 

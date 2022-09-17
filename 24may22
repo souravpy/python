@@ -1,0 +1,9 @@
+In Python, Polymorphism lets us define methods in the child class that have the same name as the methods in the parent class. 
+In inheritance, the child class inherits the methods from the parent class.
+
+What is Polymorphism: The word polymorphism means having many forms. In programming, polymorphism means the same function name (but different signatures) being used for different types
+
+Types of Polymorphism are: 
+     Compile-time polymorphism (Method overloading)
+    Run-time polymorphism (Method Overriding)
+    
